@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url('./components/assets/fonts/OpenSans-VariableFont_wdth,wght.ttf');
+}
+
+@font-face {
+  font-family: 'Cormorant SC';
+  src: url('./components/assets/fonts/CormorantSC-Regular.ttf');
+}
+
