@@ -18,7 +18,7 @@ const Navbar = () => {
         <ul className='nav-list'>
             <NavLink className='nav-item' to="/soppor">Soppor</NavLink>
             <NavLink className='nav-item' to="/sallader">Sallader</NavLink>
-            <NavLink className='nav-item' to="/huvudrätter">Huvudrätter</NavLink>
+            <NavLink className='nav-item' to="/huvudratter">Huvudrätter</NavLink>
             <NavLink className='nav-item' to="/smoothies">Smoothies</NavLink>
 
             <NavLink className='nav-item' to="/">

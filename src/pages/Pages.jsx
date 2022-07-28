@@ -8,6 +8,7 @@ import SearchResults from './SearchResults'
 import Salads from './Salads'
 import Smoothies from './Smoothies'
 import Tillbehor from './Tillbehor'
+import Huvudratter from './Huvudratter'
 
 const Pages= () => {
   return (
@@ -20,6 +21,7 @@ const Pages= () => {
         <Route path="/recipe" element={<Recipe/>} />
         <Route path="/smoothies" element={<Smoothies/>} />
         <Route path="/tillbehor" element={<Tillbehor/>} />
+        <Route path="/huvudratter" element={<Huvudratter/>} />
         <Route path="/searchresults/:searchword" element={<SearchResults/>} />
     </Routes>
     <Footer/>
