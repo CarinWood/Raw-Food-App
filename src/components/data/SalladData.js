@@ -20,12 +20,23 @@ export const SalladItems = [
     desc: "Blanda ingredienserna i en skål och servera",
   },
   {
-    title: "Äppe",
+    title: "Squashnudlar al dente",
     image:
-      "https://thumbs.dreamstime.com/b/apple-tugga-53509147.jpg",
+      "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/190514-zoodles-how-to-502-1559077290.jpg?crop=0.747xw:0.498xh;0.128xw,0.304xh&resize=480:*",
     ingredients: [
-      "8 äppe"
+      "2 squash",
+      "2 plommontomater",
+      "1/2 paprika",
+      "1/2 kopp svarta oliver",
+      "35g kopp pinjenötter",
+      "1-2 msk olivolja",
+      "1 msk basilika",
+      "1 vitlöksklyfta",
+      "salt och peppar",
+      "en skvätt citronsaft"
+
+    
     ],
-    desc: "Lägg äppe i en skål. Ta en tugga av varje äppe.",
-  },
+    desc: "Blanda ingredienserna i en skål och servera",
+  }
 ];

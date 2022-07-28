@@ -29,7 +29,7 @@ const Search = ({toggleSearchFunc}) => {
 const FormStyle = styled.form`
     position: absolute;
     width: 60%;
-    bottom: -30%;
+    bottom: -40%;
     left: 60%;
     display: flex;
     justify-content: center;

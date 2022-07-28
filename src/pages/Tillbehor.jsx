@@ -1,35 +1,35 @@
-import { SoupeItems } from '../components/data/SoupeData'
 import styled from 'styled-components'
 import { useNavigate } from 'react-router-dom'
+import { tillbehorItems } from '../components/data/TillbehorData'
 
-const Soups = () => {
-  let navigate = useNavigate()
+const Tillbehor = () => {
+    let navigate = useNavigate()
 
-  const showRecipe = (title, image, ingredients, description) => {
-    localStorage.setItem('title', title)
-    localStorage.setItem('image', image)
-    localStorage.setItem('ingredients', JSON.stringify(ingredients))
-    localStorage.setItem('description', description)
-    navigate('/recipe')
-  }
+    const showRecipe = (title, image, ingredients, description) => {
+      localStorage.setItem("title", title);
+      localStorage.setItem("image", image);
+      localStorage.setItem("ingredients", JSON.stringify(ingredients));
+      localStorage.setItem("description", JSON.stringify(description));
+      navigate("/recipe");
+    }
 
+    
   return (
     <Wrapper>
-        {SoupeItems.map((item) => (
-          <Card key={item.title}>
-              <img src={item.image} alt=""/>
-       
-              <p>{item.title}</p>
-              <Button onClick={() =>showRecipe(item.title, item.image, item.ingredients, item.desc)}>Recept</Button>
-            
-              <Gradient/>
-          </Card>
-        ))}
+    {tillbehorItems.map((item) => (
+      <Card key={item.title}>
+          <img src={item.image} alt=""/>
+   
+          <p>{item.title}</p>
+          <Button onClick={() =>showRecipe(item.title, item.image, item.ingredients, item.desc)}>Recept</Button>
+        
+          <Gradient/>
+      </Card>
+    ))}
 
-    </Wrapper>
+</Wrapper>
   )
 }
-
 
 const Wrapper = styled.div`
   display: flex;  
@@ -72,7 +72,7 @@ const Card = styled.div`
     width: 200px;
     position: absolute;
     bottom: 60%;
-    right: 5.5%;
+    right: 8%;
     z-index: 3;
     font-family: "Open Sans";
     letter-spacing: 2px;
@@ -110,4 +110,5 @@ const Button = styled.div`
   }
 `
 
-export default Soups
+
+export default Tillbehor

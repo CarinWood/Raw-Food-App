@@ -54,4 +54,39 @@ export const SoupeItems = [
     ],
     desc: "Blanda alla ingredienser till blandningen är slät. Smaka av. Servera rumstempererad eller kyld. Den går särskilt bra ihop med en klick cashewgräddfil. Har du lust kan du garnera med ätliga blommor och mer hackade jordgubbar.",
   },
+  {
+    title: "Soppa på gruka och mynta",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoY8CVbUwjnV0WdvxV-TD0f-WRkKtZ3tOjeQ&usqp=CAU",
+    ingredients: [
+      "1 1/2 kopp vatten",
+      "1 gurka",
+      "1 avokado",
+      "1/3 kopp färsk mynta",
+      "2 msk citron- eller limesaft",
+      "1 vitlöksklyfta",
+      "1/2 tsk havssalt",
+      "cayennepeppar",
+      "svartpeppar", 
+    ],
+    desc: "Kör alla ingredienser i en mixer till blandningen är slät. Tillsätt mer vätska om så behövs.",
+  },
+  {
+    title: "Soppa på kokos och broccoli",
+    image:
+      "https://assets.icanet.se/e_sharpen:80,q_auto,dpr_1.25,w_718,h_718,c_lfill/imagevaultfiles/id_187829/cf_259/broccolisoppa_med_baconost.jpg",
+    ingredients: [
+      "3 koppar kokosmjölk",
+      "1 kopp broccolibuketter",
+      "2 tsk currypulver",
+      "1/2 avokado",
+      "2-3 färska dadlar",
+      "2 msk citronsaft",
+      "2 tsk gurkmeja",
+      "2 msk riven ingefära",
+      "1 vitlöksklyfta",
+      "salt",          
+    ],
+    desc: "Kör alla ingredienser i en mixer till blandningen är slät. Smaka av. Garnera med extra, hackade broccollibuketter för extra färg och konsistens.",
+  }
 ];
