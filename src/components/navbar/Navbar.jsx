@@ -25,7 +25,7 @@ const Navbar = () => {
                 <img className='logo-image' src={Logo} alt="logo" />
             </NavLink>
             
-            <NavLink className='nav-item' to="/efterrätter">Efterrätter</NavLink>
+            <NavLink className='nav-item' to="/efterratter">Efterrätter</NavLink>
             <NavLink className='nav-item' to="/tillbehor">Tillbehör</NavLink>
             <NavLink className='nav-item' to="/drinkar">Drinkar</NavLink>
             <div className='nav-item' onClick={() => toggleSearchFunc()}><BsSearch/></div>

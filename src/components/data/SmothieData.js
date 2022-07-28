@@ -44,5 +44,43 @@ export const SmoothieItems = [
         ],
         desc: "Kör alla ingredienser i en mixer. Tillsätt vatten om du behöver få igång knivbladen.",
       },
+      {
+        title: "Enkel matig smoothie",
+        image:
+          "https://supersynbiotics.se/wp-content/uploads/2018/08/Gron-smoothie-web-4.jpg",
+        ingredients: [
+          "1 kopp vatten",
+          "1 tomat",
+          "1 paprika",
+          "en näve spenat",
+          "1/2 avokade",
+          "1 vitlöksklyfta",
+          "Saft från 1/2 lime",
+          "salt",
+          "cayennepeppar",
+        ],
+        desc: "Kör alla ingredienser i en mixer till blandningen är slät. Smaka av med salt och cayennepeppar"
+      },
+      {
+        title: "Örtig Grönsakssmoothie",
+        image:
+          "https://cdn-rdb.arla.com/Files/arla-se/2610633706/aa27f072-f697-4927-b9be-c43fc1251afc.jpg?mode=crop&w=1200&h=630&scale=both&format=jpg&quality=80&ak=f525e733&hm=35af1404",
+        ingredients: [
+          "1 1/2 kopp vatten",
+          "1 tomat",
+          "1 gurka",
+          "1 kopp spenat",
+          "1/2 avokado",
+          "några basilikakvistar",
+          "några persiljekvistar",
+          "koriander",
+          "1-2 vitlöksklyftor",
+          "saft från en citron eller lime",
+          "salt",
+          "cayennepeppar"
+          
+        ],
+        desc: "Kör alla ingredienser i en mixer till blandningen är slät. Tillsätt mer vätska om så behövs. Smaka av med salt och cayennepeppar"
+      }
 
 ] 

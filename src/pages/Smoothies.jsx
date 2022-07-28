@@ -30,51 +30,50 @@ const Smoothies = () => {
 }
 
 const Wrapper = styled.div`
-  display: flex;  
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 150px;
-  padding-left: 30px;
-  padding-right: 30px;
-
+display: flex;  
+justify-content: flex-start;
+align-items: center;
+margin-top: 150px;
+padding-left: 40px;
+padding-right: 40px;
+flex-wrap: wrap;
 `
 
 const Card = styled.div`
-  width: 480px;
-  height: 180px;
-  position: relative;
-  overflow: hidden;
+width: 480px;
+height: 180px;
+position: relative;
+overflow: hidden;
+border-radius: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+box-shadow: 5px 8px 5px rgba(0, 0, 0, 0.2);
+margin-bottom: 30px;
+margin-right: 20px;
+
+img {
+  position: absolute;
+  left: 3%;
+  top: 10%;
+  width: 45%;
+  height: 145px;
+  object-fit: fill;
   border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-shadow: 5px 8px 5px rgba(0, 0, 0, 0.2);
-  // background-color: whitesmoke;
+  z-index: 10;
 
-  img {
-    position: absolute;
-    left: 3%;
-    top: 10%;
-    width: 45%;
-    height: 145px;
-  
-    object-fit: fill;
-    border-radius: 10px;
-    z-index: 10;
- 
-  }
+}
 
-  p {
-    color: black;
-    width: 180px;
-    position: absolute;
-    bottom: 60%;
-    right: 5.5%;
-    z-index: 3;
-    font-family: "Open Sans";
-    letter-spacing: 2px;
-    
-  }
+p {
+  color: black;
+  width: 200px;
+  position: absolute;
+  bottom: 60%;
+  right: 5.5%;
+  z-index: 3;
+  font-family: "Open Sans";
+  letter-spacing: 2px;
+}
 `
 
 const Gradient = styled.div`
