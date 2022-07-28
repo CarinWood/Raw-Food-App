@@ -21,7 +21,7 @@ const Search = ({toggleSearchFunc}) => {
   return (
     <FormStyle onSubmit={submitHandler}>
         <input type="text" value={input} onChange={(e) => setInput(e.target.value)}/>
-        <SearchButton onClick={() =>handleSearch()}>Sök<BsSearch/></SearchButton>
+        <SearchButton onClick={() =>handleSearch()}><BsSearch/></SearchButton>
     </FormStyle>
   )
 }
@@ -40,12 +40,13 @@ const FormStyle = styled.form`
         background: white;
         font-size: 14px;
         color: black;
-        padding: 5px 10px;
+        padding: 5px 30px 5px 10px;
         outline: none;
         border-radius: 5px;
         text-align: left;
         font-family: "Open Sans";
         letter-spacing: 1.2px;
+        width: 210px;
     }
 
     svg{
@@ -59,20 +60,12 @@ const FormStyle = styled.form`
 const SearchButton = styled.div`
     font-family: "Open Sans";
     font-size: 14px;
-    letter-spacing: 2px;
-    padding: 5px 10px;
-    width: 80px;
-    border: 0.9px solid black;
-    border-radius: 5px;
     cursor: pointer;
-    margin-left: 10px;  
+    position: absolute;
+    margin-left: 170px;
     
     :hover {
         opacity: 0.8;
-    }
-
-    :active {
-        transform: translateY(2px);
     }
 `
 
