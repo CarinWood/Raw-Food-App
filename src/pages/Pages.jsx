@@ -10,6 +10,7 @@ import Smoothies from './Smoothies'
 import Tillbehor from './Tillbehor'
 import Huvudratter from './Huvudratter'
 import Desserts from './Desserts'
+import Drinks from './Drinks'
 
 const Pages= () => {
   return (
@@ -24,6 +25,7 @@ const Pages= () => {
         <Route path="/tillbehor" element={<Tillbehor/>} />
         <Route path="/huvudratter" element={<Huvudratter/>} />
         <Route path="/efterratter" element={<Desserts/>} />
+        <Route path="/drinkar" element={<Drinks/>} />
         <Route path="/searchresults/:searchword" element={<SearchResults/>} />
     </Routes>
     <Footer/>
