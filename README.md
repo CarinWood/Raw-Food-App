@@ -2,7 +2,7 @@
 
 ### Den här appen innhåller raw food recept. Recepten är uppdelade i kategorierna soppor, sallader, huvudrätter, smoothies, efterrätter och godis.
 
-<img src="./src/components/assets/images/startpage.JPG" width="600" />
+<img src="./src/components/assets/images/startPageRawfood.JPG" width="600" />
 
 ### Varje kategori har en samling med receptkort. Klicka på kortet för att öppna receptet för den rätt du vill tillaga.
 
