@@ -41,5 +41,17 @@ export const DrinkItems = [
         desc: "Kör citron, ingefära och vitlök i en råsaftcentrifug. Blanda med vatten, sötningsmedel, oreganoolja och cayennepeppar. Späd med vatten om smaken är för intensiv. Drick långsamt"
 
     },
+    {
+        title: "Mojito",
+        image: "https://images.pexels.com/photos/4051263/pexels-photo-4051263.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        ingredients: [
+            "4-5 myntablad",
+            "1/2 lime",
+            "Krossad is",
+            "Sprite Zero",
+        ],
+        desc: "Pressa limejuicen i ett glas och lägg i krossad is. Muddla myntabladen och lägg i glaset. Fyll på med sprite. Garnera med limeskivor och mynta."
+
+    },
 
 ]

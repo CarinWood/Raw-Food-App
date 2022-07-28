@@ -25,5 +25,18 @@ export const DessertItems = [
             "1 dl kokosflingor"],
         desc: "Mixa alla ingredienser till en smet. Forma till bollar och rulla bollarna i kokosflingor."
         
-      }
+      },
+    {
+        title: "Nice Cream",
+        image:
+          "https://images.pexels.com/photos/1332267/pexels-photo-1332267.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        ingredients: [
+            "1 frusen banan", 
+            "6 halvfrusna jordgubbar",
+            "lite vatten eller mjölk", 
+            "stevia", 
+            ],
+        desc: "Mixa banan och jordgubbar ihop med en skvätt vatten eller mjölk. Söta med stevia om det behövs"
+        
+      },
 ]

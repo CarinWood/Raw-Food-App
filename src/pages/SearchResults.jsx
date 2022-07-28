@@ -162,7 +162,7 @@ const Card = styled.div`
     top: 10%;
     width: 45%;
     height: 145px;
-    object-fit: fill;
+    object-fit: cover;
     border-radius: 10px;
     z-index: 9;
  
