@@ -23,7 +23,7 @@ export const DrinkItems = [
             "stevia",
          
         ],
-        desc: "Lägg alla ingredienser i en kastrull och värm på svag värme under omrörning. Sila vätskan genom en finmaskig sil och njut."
+        desc: "Lägg alla ingredienser i en kastrull och värm på svag värme under omrörning. Sila vätskan genom en finmaskig sil."
 
     },
     {

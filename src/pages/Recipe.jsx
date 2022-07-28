@@ -51,12 +51,12 @@ const Bottom = styled.div`
 
 `
 
-const Desc = styled.p`
+const Desc = styled.div`
     width: 800px;
     font-family: "Open Sans";
     letter-spacing: 1.2px;
     font-size: 12px;
-    text-align: left;
+    text-align: center;
     line-height: 25px;
 
 `
