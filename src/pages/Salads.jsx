@@ -71,8 +71,9 @@ const Card = styled.div`
     color: black;
     width: 180px;
     position: absolute;
-    bottom: 55%;
-    right: 8%;
+    bottom: 60%;
+    right: 6%;
+    font-size: 14px;
     z-index: 3;
     font-family: "Open Sans";
     letter-spacing: 2px;

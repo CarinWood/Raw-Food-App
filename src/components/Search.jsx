@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom'
 
 const Search = ({toggleSearchFunc}) => {
     const navigate = useNavigate()
-    const [input, setInput] = useState('ärter')
+    const [input, setInput] = useState('')
 
    const submitHandler = (e) => {
         e.preventDefault()

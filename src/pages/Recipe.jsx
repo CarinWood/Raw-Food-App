@@ -35,7 +35,7 @@ const Recipe = () => {
             </Top>
             <Bottom>
                 <Steps>Gör så här:</Steps>
-                <Desc>{description}</Desc>
+                <Desc>{description.replace(/"/g,'')}</Desc>
             </Bottom>
     </Wrapper>
   )

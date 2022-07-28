@@ -69,7 +69,8 @@ p {
   width: 200px;
   position: absolute;
   bottom: 60%;
-  right: 5.5%;
+  right: 6%;
+  font-size: 14px;
   z-index: 3;
   font-family: "Open Sans";
   letter-spacing: 2px;
