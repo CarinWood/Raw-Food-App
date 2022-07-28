@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom'
 import { SoupeItems } from '../components/data/SoupeData'
 import { SalladItems } from '../components/data/SalladData'
 import { SmoothieItems } from '../components/data/SmothieData'
+import { tillbehorItems } from '../components/data/TillbehorData'
 import styled from 'styled-components'
 import { useNavigate } from 'react-router-dom'
 
@@ -59,6 +60,18 @@ const SearchResults = () => {
             ))}
           {SmoothieItems.filter(smoothie =>
             smoothie.title.toLowerCase().includes(word.toLowerCase())).map(item => (
+              <Card key={item.title}>
+            <img src={item.image} alt=""/>
+     
+            <p>{item.title}</p>
+            <Button onClick={() =>showRecipe(item.title, item.image, item.ingredients, item.desc)}>Recept</Button>
+          
+            <Gradient/>
+        </Card>
+            ))}
+          
+          {tillbehorItems.filter(tillbehor =>
+            tillbehor.title.toLowerCase().includes(word.toLowerCase())).map(item => (
               <Card key={item.title}>
             <img src={item.image} alt=""/>
      
