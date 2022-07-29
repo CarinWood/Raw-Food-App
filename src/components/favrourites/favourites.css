@@ -42,6 +42,10 @@
 }
 
 @media screen and (max-width: 811px) {
+    .favourites-div {
+        margin-top: 100px;
+    }
+
     .fav-card {
         width: 267px;
         height: 200px;

@@ -9,6 +9,7 @@
     top: 0;
     padding-top: 40px;
     padding-bottom: 20px;
+
 }
 
 .hamburger-menu {
@@ -61,18 +62,55 @@
     .logo-image {
         visibility: visible;
         position: absolute;
-        left: 10%;
-        top: 3%;
-        width: 70px;
+        left: 8%;
+        top: -2%;
+        width: 60px;
     }
+
     .hamburger-menu {
         position: absolute;
         right: 8%;
-        top: 65%;
+        top: 60%;
         font-size: 30px;
         visibility: visible;
         color: black;
         cursor: pointer;      
+    }
+
+    .responsive-menu {
+        width: 43%;
+        height: auto;
+        visibility: visible;
+        position: absolute;
+        top: 9.3%;
+        right: 0;
+        z-index: 11;
+        border: 1px solid black;
+        border-radius: 10px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background-color: black;
+      
+    }
+
+    .responsive-nav {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .responsive-item {
+        margin-bottom: 20px;
+        margin-top: 20px;
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+        font-family: "Open Sans";
+        letter-spacing: 2px;
+        font-size: 14px;
+
     }
 
 }
