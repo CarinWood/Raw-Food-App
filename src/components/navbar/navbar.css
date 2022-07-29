@@ -11,6 +11,19 @@
     padding-bottom: 20px;
 }
 
+.hamburger-menu {
+    position: absolute;
+    font-size: 0px;
+    visibility: hidden;
+
+}
+
+.responsive-menu {
+    width: 0px;
+    height: 0px;
+    visibility: hidden;
+}
+
 .nav-list {
     width: 100%;
     padding-top: 0px;
@@ -38,6 +51,28 @@
 
  .logo-image {
     width: 60px;
-
-
 } 
+
+@media screen and (max-width: 811px) {
+    .navbar {
+        visibility: hidden;
+    }
+
+    .logo-image {
+        visibility: visible;
+        position: absolute;
+        left: 10%;
+        top: 3%;
+        width: 70px;
+    }
+    .hamburger-menu {
+        position: absolute;
+        right: 8%;
+        top: 65%;
+        font-size: 30px;
+        visibility: visible;
+        color: black;
+        cursor: pointer;      
+    }
+
+}
