@@ -25,6 +25,12 @@
     visibility: hidden;
 }
 
+.responsive-search {
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+}
+
 .nav-list {
     width: 100%;
     padding-top: 0px;
@@ -55,8 +61,12 @@
 } 
 
 @media screen and (max-width: 811px) {
-    .navbar {
+    .nav-list {
         visibility: hidden;
+    }
+
+    .navbar {
+        z-index: 11;
     }
 
     .logo-image {
@@ -78,19 +88,24 @@
     }
 
     .responsive-menu {
-        width: 43%;
+        width: 100%;
         height: auto;
         visibility: visible;
         position: absolute;
-        top: 9.3%;
+        top: -100%;
         right: 0;
-        z-index: 11;
-        border: 1px solid black;
-        border-radius: 10px;
-        padding-top: 40px;
-        padding-bottom: 40px;
-        background-color: black;
-      
+        z-index: 10;
+        padding-top: 60px;
+        padding-bottom: 70px;
+        background-color: white;
+        /* border-bottom: 0.7px solid black; */
+        transition: 0.5s ease-in-out;
+        border-radius: 0px 0px 15px 15px;
+        box-shadow: 5px 2px 5px 2px rgba(0, 0, 0, 0.2);
+    }
+
+    .down {
+        top: 5%;
     }
 
     .responsive-nav {
@@ -105,12 +120,20 @@
         margin-bottom: 20px;
         margin-top: 20px;
         text-decoration: none;
-        color: white;
+        color: black;
         text-transform: uppercase;
         font-family: "Open Sans";
         letter-spacing: 2px;
         font-size: 14px;
-
     }
+  
+.responsive-search {
+    visibility: visible;
+    width: 220px;
+    height: auto;
+    position: absolute;
+    left: 25%;
+    top: 110%;
+}
 
 }
