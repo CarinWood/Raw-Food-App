@@ -10,6 +10,7 @@ const Search = ({toggleSearchFunc}) => {
 
    const submitHandler = (e) => {
         e.preventDefault()
+        handleSearch()
    }
 
    const handleSearch = () => {
@@ -47,6 +48,11 @@ const FormStyle = styled.form`
         font-family: "Open Sans";
         letter-spacing: 1.2px;
         width: 210px;
+
+        @media (max-width: 811px) {
+            font-size: 16px;
+            width: 230px;
+        }
     }
 
     svg{

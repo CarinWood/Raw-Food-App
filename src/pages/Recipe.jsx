@@ -59,6 +59,12 @@ const Desc = styled.div`
     text-align: center;
     line-height: 25px;
 
+    @media (max-width: 811px) {
+        width: 80%;
+        font-size: 15px;
+    }
+
+
 `
 
 const Steps = styled.div`
@@ -67,6 +73,8 @@ const Steps = styled.div`
     font-weight: 400;
     letter-spacing: 3px;
     margin-bottom: 20px;
+
+    
       
 `
 
@@ -82,7 +90,7 @@ const Ingredients = styled.p`
 `
 
 const Top = styled.div`
-    width: 60%;
+    width: 90%;
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
@@ -93,9 +101,7 @@ const Wrapper = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-
-  
+    justify-content: center; 
 `
 
 const ImageWrapper = styled.div`
@@ -104,10 +110,17 @@ const ImageWrapper = styled.div`
     overflow: hidden;
     border-radius: 20px;
 
+    @media (max-width: 811px) {
+        width: 220px;
+        height: 190px;
+    }
+
     img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+
+   
 
     }
 `
@@ -120,6 +133,10 @@ const Title = styled.div`
     letter-spacing: 2px;
     word-spacing: 5px;
     margin-bottom: 80px;
+
+    @media (max-width: 811px) {
+        font-size: 20px;
+    }
 `
 
 const List = styled.div`
@@ -133,6 +150,10 @@ const List = styled.div`
         margin-bottom: 10px;
         text-align: center;
         font-size: 12px;
+
+        @media (max-width: 811px) {
+            font-size: 15px;
+        }
     }
 `
 

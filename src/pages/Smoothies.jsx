@@ -37,6 +37,12 @@ margin-top: 150px;
 padding-left: 40px;
 padding-right: 40px;
 flex-wrap: wrap;
+
+@media (max-width: 811px) {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 `
 
 const Card = styled.div`
@@ -60,7 +66,7 @@ img {
   height: 145px;
   object-fit: cover;
   border-radius: 10px;
-  z-index: 10;
+  z-index: 9;
 
 }
 

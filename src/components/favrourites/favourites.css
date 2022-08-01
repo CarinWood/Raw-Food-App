@@ -43,12 +43,12 @@
 
 @media screen and (max-width: 811px) {
     .favourites-div {
-        margin-top: 100px;
+        margin-top: 150px;
     }
 
     .fav-card {
         width: 267px;
-        height: 200px;
+        height: 220px;
         margin-left: 1px;
         margin-right: 7px;
         position: relative;

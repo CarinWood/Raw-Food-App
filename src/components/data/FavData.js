@@ -16,13 +16,37 @@ export const FavItems = [
         
     },
     {
-        title: 'Morotskaka',
-        image: 'https://images.pexels.com/photos/2267873/pexels-photo-2267873.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+      title: "Morotskaka",
+      image:
+        "https://images.pexels.com/photos/2267873/pexels-photo-2267873.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      ingredients: [
+          "4 morötter", 
+          "1 dl solroskärnor",
+          "2 dl valnötter", 
+          "2,5 dl katrinplommon",
+          "1,25 dl kokosmjöl",
+          "1 tsk rivet apelsinskal",
+          "0,5 tsk torkad ingefära",
+          "2 tsk kanel",
+          "0,5 tsk salt",
+
+          ],
+      desc: "Riv morötterna fint. Mixa solroskärnor och valnötter till mjöl, som grovt mandelmjöl. Tillsätt katrinplommon och fortsätt att mixa tills att plommonen har bildat en deg med nötmjölet. Se till att katrinplommonen finfördelats. Överför blandningen till en bunke och blanda i morötter, kokosmjöl och smaksättning. Blanda väl med slev, gaffel eller handen. Lägg morotsdegen i en form. Ställ i kylen några timmar eller över natten så att den stelnar."
+      
     },
     {
-        title: 'Hallonsmoothie',
-        image: 'https://images.pexels.com/photos/434295/pexels-photo-434295.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
-
+      title: "Hallonsmoothie",
+      image:
+        "https://images.pexels.com/photos/434295/pexels-photo-434295.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      ingredients: [
+        "2 dl naturell yoghurt",
+        "2 dl mjölk",
+        "2 - 3 msk färska hallon",
+        "stevia",
+        
+        
+      ],
+      desc: "Häll yoghurt, mjölk, hallon och stevia efter smak i en mixer och kör till en slät smoothie. Häll upp i glas och drick medan den är kall."
     },
     {
         title: "Dadelbollar",

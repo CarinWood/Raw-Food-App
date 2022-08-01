@@ -40,6 +40,12 @@ const Wrapper = styled.div`
   padding-right: 40px;
   flex-wrap: wrap;
 
+  @media (max-width: 811px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
 `
 
 const Card = styled.div`
@@ -55,6 +61,11 @@ const Card = styled.div`
   margin-bottom: 30px;
   margin-right: 20px;
 
+  @media (max-width: 811px) {
+    margin-right: 0px;
+    
+  }
+
   img {
     position: absolute;
     left: 3%;
@@ -63,7 +74,7 @@ const Card = styled.div`
     height: 145px;
     object-fit: cover;
     border-radius: 10px;
-    z-index: 10;
+    z-index: 9;
  
   }
 

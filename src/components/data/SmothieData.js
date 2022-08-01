@@ -81,6 +81,20 @@ export const SmoothieItems = [
           
         ],
         desc: "Kör alla ingredienser i en mixer till blandningen är slät. Tillsätt mer vätska om så behövs. Smaka av med salt och cayennepeppar"
+      },
+      {
+        title: "Hallonsmoothie",
+        image:
+          "https://images.pexels.com/photos/434295/pexels-photo-434295.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        ingredients: [
+          "2 dl naturell yoghurt",
+          "2 dl mjölk",
+          "2 - 3 msk färska hallon",
+          "stevia",
+          
+          
+        ],
+        desc: "Häll yoghurt, mjölk, hallon och stevia efter smak i en mixer och kör till en slät smoothie. Häll upp i glas och drick medan den är kall."
       }
 
 ] 
