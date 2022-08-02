@@ -18,7 +18,7 @@ const Favourites = () => {
 
   return (
     <div className='favourites-div'>
-      <Splide options={{ perPage: 3, pagination: false }}>
+      <Splide className='splide' options={{ perPage: 3, pagination: false }}>
       {FavItems.map((item, i) => (
           <SplideSlide>
               <div key={i} className="fav-card" onClick={() => recipeFunction(item.title, item.image, item.ingredients, item.desc)}>
