@@ -29,23 +29,6 @@ const Wrapper = styled.div`
     padding-right: 50px;
 `
 
-const Left = styled.div`
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-`
-
-const Right = styled.div`
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-
-`
-
-
 const Credits = styled.div`
     font-size: 14px;
     letter-spacing: 1.8px;
@@ -57,6 +40,12 @@ const Credits = styled.div`
     font-family: 'Cormorant SC';
     margin-top: 0px;
     font-size: 14px;
+
+    @media (max-width: 429px) {
+        font-size: 10px;
+        letter-spacing: 1.2px;
+        word-spacing: 0px;
+    }
 `
 
 export default Footer

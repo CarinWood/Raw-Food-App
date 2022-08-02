@@ -55,7 +55,7 @@ export const tillbehorItems = [
         desc: "Lägg alla ingredienser förutom tomaterna i en matberedare och kör tills blandningen är slät. Tillsätt tomaterna och kör tills de blandats, men såsen ändå är lite rustik."
     },
     {
-        title: "De gröna dippernas drottning",
+        title: "Grön dip",
         image:
           "https://static01.nyt.com/images/2019/09/01/magazine/01mag-eat/01mag-eat-articleLarge.jpg",
         ingredients: [

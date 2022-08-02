@@ -14,7 +14,7 @@ export const SmoothieItems = [
         desc: "Lägg alla ingredienser i en mixer och kör tills blandningen är slät",
       },
     {
-        title: "Kaliforniensmoothie",
+        title: "Kalifornien",
         image:
           "https://images.pexels.com/photos/616833/pexels-photo-616833.jpeg?auto=compress&cs=tinysrgb&w=800",
         ingredients: [
