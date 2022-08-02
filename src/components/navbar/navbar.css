@@ -137,3 +137,24 @@
 }
 
 }
+
+@media screen and (max-width: 429px) {  
+    .logo-image {
+        visibility: visible;
+        position: absolute;
+        left: 8%;
+        top: -80%;
+        width: 62px;
+    }
+
+    .hamburger-menu {
+        position: absolute;
+        right: 9%;
+        top: 38%;
+        font-size: 32px;
+        visibility: visible;
+        color: black;
+        cursor: pointer;      
+    }
+
+}

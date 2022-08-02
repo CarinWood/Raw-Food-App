@@ -36,6 +36,12 @@ const FormStyle = styled.form`
     justify-content: center;
     align-items: center;
 
+    @media (max-width: 429px) {
+        width: auto;
+        left: 10%;
+        bottom: -30%;   
+    }
+
     input {
         border: 0.9px solid black;
         background: white;
@@ -52,6 +58,11 @@ const FormStyle = styled.form`
         @media (max-width: 811px) {
             font-size: 16px;
             width: 230px;
+        }
+
+        @media (max-width: 429px) {
+            width: 160px;
+            font-size: 12px;
         }
     }
 
