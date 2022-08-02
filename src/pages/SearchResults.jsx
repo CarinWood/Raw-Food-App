@@ -138,7 +138,7 @@ const Wrapper = styled.div`
 `
 
 const Headline = styled.p`
-  margin-top: 200px;
+  margin-top: 150px;
   font-family: 'Open Sans';
   font-size: 20px;
   letter-spacing: 1.5px;
@@ -156,6 +156,11 @@ const Card = styled.div`
   box-shadow: 5px 8px 5px rgba(0, 0, 0, 0.2);
   margin-bottom: 40px;
 
+  @media (max-width: 429px) {
+    width: 350px;
+    height: 150px;
+  }
+
   img {
     position: absolute;
     left: 3%;
@@ -165,6 +170,11 @@ const Card = styled.div`
     object-fit: cover;
     border-radius: 10px;
     z-index: 9;
+
+    
+    @media (max-width: 429px) {
+      height: 120px;
+    }
  
   }
 
@@ -177,6 +187,12 @@ const Card = styled.div`
     z-index: 3;
     font-family: "Open Sans";
     letter-spacing: 2px;
+
+    
+    @media (max-width: 429px) {
+      font-size: 12px;
+      width: 130px;
+    }
     
   }
 `
@@ -206,6 +222,12 @@ const Button = styled.div`
   letter-spacing: 2px;
   text-transform: uppercase;
   transition: 0.2s ease-in-out;
+
+  @media (max-width: 429px) {
+    font-size: 12px;
+    width: 85px;
+    right: 13%;
+  }
 
   :hover {
     opacity: 0.5;

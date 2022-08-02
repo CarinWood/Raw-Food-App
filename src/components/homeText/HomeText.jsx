@@ -3,6 +3,7 @@ import "./homeText.css";
 const HomeText = () => {
   return (
     <section className="home-text">
+     
       <p className="home-title">Raw Food Recept</p>
       <p className="home-subtext">
         Det här är en receptsamling med raw food recept. Raw food är en

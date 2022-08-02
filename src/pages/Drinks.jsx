@@ -44,6 +44,11 @@ const Wrapper = styled.div`
     justify-content: center;
     align-items: center;
   }
+
+  @media (max-width: 429px) {
+    padding: 0px;
+    margin-top: 120px;
+  }
 `
 
 const Card = styled.div`
@@ -59,6 +64,12 @@ const Card = styled.div`
   margin-bottom: 30px;
   margin-right: 20px;
 
+  @media (max-width: 429px) {
+    width: 320px;
+    height: 120px;
+    margin-right: 0px;
+  }
+
   img {
     position: absolute;
     left: 3%;
@@ -68,6 +79,10 @@ const Card = styled.div`
     object-fit: cover;
     border-radius: 10px;
     z-index: 9;
+
+    @media (max-width: 429px) {
+      height: 90px;
+    }
  
   }
 
@@ -82,6 +97,11 @@ const Card = styled.div`
     font-family: "Open Sans";
     letter-spacing: 2px;
     font-size: 14px;
+
+    @media (max-width: 429px) {
+      font-size: 11px;
+      width: 125px;
+    }
     
   }
 `
@@ -111,6 +131,13 @@ const Button = styled.div`
   letter-spacing: 2px;
   text-transform: uppercase;
   transition: 0.2s ease-in-out;
+
+  @media (max-width: 429px) {
+    font-size: 11px;
+    width: 80px;
+    right: 13%;
+    bottom: 22%;
+  }
 
   :hover {
     opacity: 0.5;
