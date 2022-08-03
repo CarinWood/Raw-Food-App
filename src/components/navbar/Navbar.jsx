@@ -45,6 +45,7 @@ const Navbar = () => {
             {toggleSearch && <Search toggleSearchFunc={toggleSearchFunc} />}
         </ul>
            <div className='responsive-top-div'>
+           <BsSearch className='responsive-magnifyer'/>
            <GrMenu className='hamburger-menu' onClick={() => foldRespMenuFunc()} />
            </div>
     </nav>

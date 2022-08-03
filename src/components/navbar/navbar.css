@@ -9,14 +9,18 @@
     top: 0;
     padding-top: 40px;
     padding-bottom: 20px;
-
 }
 
 .hamburger-menu {
     position: absolute;
     font-size: 0px;
     visibility: hidden;
+}
 
+.responsive-magifyer {
+    position: absolute;
+    font-size: 0px;
+    visibility: hidden;
 }
 
 .responsive-menu {
@@ -175,7 +179,16 @@
 
     .responsive-item {
         margin-bottom: 10px;
-     
+    }
+
+    .responsive-magnifyer {
+        position: absolute;
+        right: 24%;
+        top: 38%;
+        font-size: 20px;
+        visibility: visible;
+        color: black;
+        cursor: pointer;     
     }
 
     
