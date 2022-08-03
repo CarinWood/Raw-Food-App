@@ -74,8 +74,8 @@
         visibility: visible;
         position: absolute;
         left: 8%;
-        top: -110%;
-        width: 62px;
+        top: -90%;
+        width: 58px;
     }
 
     .hamburger-menu {
@@ -93,7 +93,7 @@
         height: auto;
         visibility: visible;
         position: absolute;
-        top: -100%;
+        top: -130%;
         right: 0;
         z-index: 10;
         padding-top: 60px;
@@ -138,23 +138,46 @@
 
 }
 
-@media screen and (max-width: 429px) {  
+@media screen and (max-width: 429px) {
     .logo-image {
         visibility: visible;
         position: absolute;
-        left: 8%;
-        top: -80%;
-        width: 62px;
+        left: 12%;
+        top: -39%;
+        width: 50px;
+        z-index: 11;
+        visibility: hidden;
+    }
+
+    .responsive-top-div {
+        height: 12vh;
+        background-color: white;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
     }
 
     .hamburger-menu {
         position: absolute;
-        right: 9%;
-        top: 38%;
+        right: 12%;
+        top: 32%;
         font-size: 32px;
         visibility: visible;
         color: black;
         cursor: pointer;      
     }
+
+    .startsida {
+        margin-top: 7px;
+    }
+
+
+    .responsive-item {
+        margin-bottom: 10px;
+     
+    }
+
+    
 
 }

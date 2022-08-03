@@ -41,6 +41,14 @@ const FormStyle = styled.form`
         left: 10%;
         bottom: -30%;   
     }
+ 
+    @media (max-width: 429px) {
+        visibility: visible;
+        position: relative;
+        margin-top: 25px;
+        margin-left: 0px;
+        margin-right: 80px;
+    }
 
     input {
         border: 0.9px solid black;
@@ -83,6 +91,12 @@ const SearchButton = styled.div`
     
     :hover {
         opacity: 0.8;
+    }
+
+    @media (max-width: 429px) {
+        visibility: visible;
+        margin-left: 120px;
+        
     }
 `
 

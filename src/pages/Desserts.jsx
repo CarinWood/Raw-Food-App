@@ -47,7 +47,7 @@ const Wrapper = styled.div`
   
   @media (max-width: 429px) {
     padding: 0px;
-    margin-top: 120px;
+    margin-top: 108px;ö
   }
 `
 
@@ -99,6 +99,7 @@ const Card = styled.div`
 
     @media (max-width: 429px) {
       font-size: 11px;
+      font-weight: 400;
       width: 125px;
     }
   }
