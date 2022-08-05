@@ -134,6 +134,11 @@ const Wrapper = styled.div`
   align-items: center;
   margin-top: 50px;
 
+ 
+  @media (max-width: 429px) {
+    padding: 0px;
+    margin-top: 50px;
+  }
 
 `
 
@@ -142,6 +147,20 @@ const Headline = styled.p`
   font-family: 'Open Sans';
   font-size: 20px;
   letter-spacing: 1.5px;
+
+  
+  @media (max-width: 811) {
+    padding: 0px;
+    margin-top: 200px;
+    border: 1px solid black;   
+    font-size: 10px;
+  }
+
+  @media (max-width: 429px) {
+    font-size: 16px;
+  }
+
+
 `
 
 const Card = styled.div`
@@ -157,8 +176,8 @@ const Card = styled.div`
   margin-bottom: 40px;
 
   @media (max-width: 429px) {
-    width: 350px;
-    height: 150px;
+    width: 320px;
+    height: 120px;
   }
 
   img {
@@ -173,7 +192,7 @@ const Card = styled.div`
 
     
     @media (max-width: 429px) {
-      height: 120px;
+      height: 90px;
     }
  
   }
@@ -190,8 +209,9 @@ const Card = styled.div`
 
     
     @media (max-width: 429px) {
-      font-size: 12px;
-      width: 130px;
+      font-size: 11px;
+      width: 125px;
+      font-weight: 400;
     }
     
   }
@@ -224,9 +244,10 @@ const Button = styled.div`
   transition: 0.2s ease-in-out;
 
   @media (max-width: 429px) {
-    font-size: 12px;
-    width: 85px;
+    font-size: 11px;
+    width: 80px;
     right: 13%;
+    bottom: 22%;
   }
 
   :hover {

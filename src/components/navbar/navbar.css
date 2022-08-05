@@ -15,6 +15,7 @@
     position: absolute;
     font-size: 0px;
     visibility: hidden;
+    z-index: 13;
 }
 
 .responsive-magifyer {
@@ -74,18 +75,28 @@
         height: 9vh;
     }
 
+    .responsive-top-div {
+        height: 12vh;
+        background-color: white;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
     .logo-image {
         visibility: visible;
         position: absolute;
-        left: 8%;
-        top: -90%;
-        width: 58px;
+        left: 10%;
+        top: -20%;
+        width: 66px;
+        z-index: 11;
     }
 
     .hamburger-menu {
         position: absolute;
-        right: 9%;
-        top: 32%;
+        right: 12%;
+        top: 40%;
         font-size: 32px;
         visibility: visible;
         color: black;
@@ -109,7 +120,7 @@
     }
 
     .down {
-        top: 5%;
+        top: 7%;
     }
 
     .responsive-nav {
@@ -129,9 +140,11 @@
         font-family: "Open Sans";
         letter-spacing: 2px;
         font-size: 16px;
+        display: flex;
+        justify-content: center;
     }
   
-.responsive-search {
+    .responsive-search {
     visibility: visible;
     width: 220px;
     height: auto;
@@ -150,7 +163,6 @@
         top: -39%;
         width: 50px;
         z-index: 11;
-        visibility: hidden;
     }
 
     .responsive-top-div {
@@ -173,7 +185,8 @@
     }
 
     .startsida {
-        margin-top: 7px;
+        margin-top: 0px;
+        margin-bottom: 13px;
     }
 
 
@@ -189,6 +202,10 @@
         visibility: visible;
         color: black;
         cursor: pointer;     
+    }
+
+    .down {
+        top: 6%;
     }
 
     

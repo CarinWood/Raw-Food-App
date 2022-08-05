@@ -23,6 +23,7 @@ const Navbar = () => {
 
   const handleClickLogo = () => {
     navigate('/')
+    setFoldRespMenu(false)
   }
 
   return (
@@ -45,13 +46,12 @@ const Navbar = () => {
             {toggleSearch && <Search toggleSearchFunc={toggleSearchFunc} />}
         </ul>
            <div className='responsive-top-div'>
-           <BsSearch className='responsive-magnifyer'/>
            <GrMenu className='hamburger-menu' onClick={() => foldRespMenuFunc()} />
            </div>
     </nav>
     <div className={foldRespMenu ? 'responsive-menu down': 'responsive-menu'}>
       <ul className='responsive-nav'>
-            <NavLink className='responsive-item startsida' to="/" onClick={() =>foldRespMenuFunc()}>hem</NavLink>
+            <div className='responsive-item startsida'><Search setFoldRespMenu={setFoldRespMenu}/></div>
             <NavLink className='responsive-item' to="/soppor" onClick={() =>foldRespMenuFunc()}>Soppor</NavLink>
             <NavLink className='responsive-item' to="/sallader" onClick={() =>foldRespMenuFunc()}>Sallader</NavLink>
             <NavLink className='responsive-item' to="/huvudratter" onClick={() =>foldRespMenuFunc()}>Huvudrätter</NavLink>
@@ -59,6 +59,7 @@ const Navbar = () => {
             <NavLink className='responsive-item' to="/efterratter" onClick={() =>foldRespMenuFunc()}>Efterrätter</NavLink>
             <NavLink className='responsive-item' to="/tillbehor" onClick={() =>foldRespMenuFunc()}>Tillbehör</NavLink>
             <NavLink className='responsive-item' to="/drinkar" onClick={() =>foldRespMenuFunc()}>Drinkar</NavLink>
+           
       </ul>
      
     </div>

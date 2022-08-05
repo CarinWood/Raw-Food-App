@@ -4,24 +4,25 @@ import { BsSearch } from 'react-icons/bs'
 import { useNavigate } from 'react-router-dom'
 
 
-const Search = ({toggleSearchFunc}) => {
+const Search = ({toggleSearchFunc, setFoldRespMenu}) => {
     const navigate = useNavigate()
     const [input, setInput] = useState('')
 
    const submitHandler = (e) => {
         e.preventDefault()
-        handleSearch()
    }
 
    const handleSearch = () => {
     navigate('/searchresults/'+input)
     setInput('')
+    setFoldRespMenu(false)
     toggleSearchFunc()
+    
    }
 
   return (
     <FormStyle onSubmit={submitHandler}>
-        <input type="text" value={input} onChange={(e) => setInput(e.target.value)}/>
+        <input placeholder="Sök recept..." type="text" value={input} onChange={(e) => setInput(e.target.value)}/>
         <SearchButton onClick={() =>handleSearch()}><BsSearch/></SearchButton>
     </FormStyle>
   )
@@ -35,19 +36,16 @@ const FormStyle = styled.form`
     display: flex;
     justify-content: center;
     align-items: center;
-
-    @media (max-width: 429px) {
-        width: auto;
-        left: 10%;
-        bottom: -30%;   
-    }
  
+    @media (max-width: 811px) {
+        visibility: visible;
+        position: unset;
+        margin-top: 0 auto;
+    }
     @media (max-width: 429px) {
         visibility: visible;
-        position: relative;
-        margin-top: 25px;
-        margin-left: 0px;
-        margin-right: 80px;
+        position: unset;
+        margin-top: 0 auto;
     }
 
     input {
