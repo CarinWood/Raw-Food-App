@@ -40,6 +40,22 @@ export const DessertItems = [
         
       },
     {
+        title: "Chokladmousse",
+        image:
+          "https://wildwoodhealth.com/wp-content/uploads/sites/2/2018/06/raw-carob-mousse.jpg",
+        ingredients: [
+            "1 msk kokosolja",
+            "1 dl vatten",
+            "5 dadlar",
+            "1 msk kakao",
+            "1/2 krm vaniljpulver",
+            "1 avokado",
+            "Hallon till servering",
+            ],
+        desc: "Gör kokosoljan flytande över ljummet vattenbad. Kör vatten och dadlar i matberedaren. Tillsätt kokosolja, kakao och vaniljpulver och kör igen. Tillsätt till sist avokadon och kör en kort stund. Servera i en skål tillsammans med hallonen."
+        
+      },
+    {
         title: "Morotskaka",
         image:
           "https://images.pexels.com/photos/2267873/pexels-photo-2267873.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",

@@ -88,5 +88,41 @@ export const SoupeItems = [
       "salt",          
     ],
     desc: "Kör alla ingredienser i en mixer till blandningen är slät. Smaka av. Garnera med extra, hackade broccollibuketter för extra färg och konsistens.",
+  },
+  {
+    title: "Rödbetssoppa med dill",
+    image:
+      "https://i.pinimg.com/736x/cc/4e/0c/cc4e0cbc38da21e33e991cf44e205970.jpg",
+    ingredients: [
+      "2 1/2 koppar vatten",
+      "1 kopp rödbetor",
+      "2 stjälkar blekselleri",
+      "1/4 normalstor avokado",
+      "3 msk citronsaft",
+      "1-2 färska dadlar",
+      "några dillkvistar",
+      "1 vitlöksklyfta",
+      "1/2 tsk havssalt"
+             
+    ],
+    desc: "Kör alla ingredienser i en mixer till blandningen är slät. Smaka av. Häll upp i portionsformar och strö över avokado och klicka över lite cashewgräddfil",
+  },
+  {
+    title: "Spenatsoppa",
+    image:
+      "https://images.pexels.com/photos/10991643/pexels-photo-10991643.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    ingredients: [
+      "10 cm gurka",
+      "2 st avokado",
+      "100 g babyspenat",
+      "3-4 dl vatten",
+      "2 msk persilja",
+      "1/2 kruka färsk basilika",
+      "2 msk gräslök",
+      "1/2 msk limejuice",
+      "en nypa salt"
+             
+    ],
+    desc: "Dela gurka och avokado i större bitar. Mixa sedan spenat och vatten, börja med 3 dl vatten. Lägg i resten av ingredienserna och mixa igen. Tillsätt mer vatten efter hand för att få rätt konsistens samt smaka av för att se om det behövs mer lime eller salt.",
   }
 ];

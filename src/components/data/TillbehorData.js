@@ -45,7 +45,7 @@ export const tillbehorItems = [
           "2-3 soltorkade tomater i olja",
           "1-2 msk olivolja",
           "2 msk färsk basilika eller 2 tsk torkad",
-          "1 msk färsk oregana eller 1 tsk torkad",
+          "1 msk färsk oregano eller 1 tsk torkad",
           "1/2 dadel",
           "2 vitlöksklyftor",
           "1/2 tsk havssalt",
@@ -69,6 +69,18 @@ export const tillbehorItems = [
           "1/2 tsk havssalt",
           "1/4 tsk chiliflingor",
           "3 koppar (540g) tomater, hackade"
+        ],
+        desc: "Lägg alla ingredienser förutom tomaterna i en matberedare och kör tills blandningen är slät. Tillsätt tomaterna och kör tills de blandats, men såsen ändå är lite rustik."
+    },
+    {
+        title: "Cashewgräddfil",
+        image:
+          "https://assets.icanet.se/e_sharpen:80,q_auto,dpr_1.25,w_718,h_718,c_lfill/imagevaultfiles/id_131994/cf_259/cashewgradde.jpg",
+        ingredients: [
+          "1 kopp cashewnötter, blötlagda",
+          "1/2 kopp vatten",
+          "2 msk citronsaft"
+       
         ],
         desc: "Lägg alla ingredienser förutom tomaterna i en matberedare och kör tills blandningen är slät. Tillsätt tomaterna och kör tills de blandats, men såsen ändå är lite rustik."
     }

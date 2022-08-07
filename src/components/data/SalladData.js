@@ -38,5 +38,26 @@ export const SalladItems = [
     
     ],
     desc: "Blanda ingredienserna i en skål och servera",
+  },
+  {
+    title: "Sallad med skivad brysselkål, äpple och hasselnötter",
+    image:
+      "https://img.koket.se/standard-mega/brysselkals-och-hjartsallad-med-kummin-och-senapskram.jpg.webp",
+    ingredients: [
+      "5 koppar finskuren brysselkål",
+      "1 rött äpple",
+      "1/3 kopp hasselnötter",
+      "***",
+      "Dressing:",
+      "1/4 kopp olivolja",
+      "2 msk citronsaft",
+      "1 tsk grovkornig dijonsenap",
+      "1 tsk honung",
+      "salt"
+   
+
+    
+    ],
+    desc: "Skiva brysselkålen och äpplet tunt med hjälp av en mandolin eller kniv. Blanda tillsammans med hasselnötter i en stor skål. Kör ingredienserna till dressingen i en mixer, eller vispa i en skål. Rör ner i salladen.",
   }
 ];
