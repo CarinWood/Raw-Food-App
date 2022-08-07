@@ -33,9 +33,11 @@ const Wrapper = styled.div`
 display: flex;  
 justify-content: flex-start;
 align-items: center;
+width: 100%;
+overflow-x: hidden;
 margin-top: 150px;
-padding-left: 40px;
-padding-right: 40px;
+padding-left: 50px;
+padding-right: 10px;
 flex-wrap: wrap;
 
 @media (max-width: 811px) {

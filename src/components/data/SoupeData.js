@@ -110,7 +110,7 @@ export const SoupeItems = [
   {
     title: "Spenatsoppa",
     image:
-      "https://images.pexels.com/photos/10991643/pexels-photo-10991643.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7HsbEvF4vxjrxWTXrEPbDxPSRuFCSqfCexA&usqp=CAU",
     ingredients: [
       "10 cm gurka",
       "2 st avokado",

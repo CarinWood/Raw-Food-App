@@ -32,13 +32,15 @@ const Tillbehor = () => {
 }
 
 const Wrapper = styled.div`
-  display: flex;  
-  justify-content: flex-start;
-  align-items: center;
-  margin-top: 150px;
-  padding-left: 40px;
-  padding-right: 40px;
-  flex-wrap: wrap;
+display: flex;  
+justify-content: flex-start;
+align-items: center;
+width: 100%;
+overflow-x: hidden;
+margin-top: 150px;
+padding-left: 50px;
+padding-right: 10px;
+flex-wrap: wrap;
 
   @media (max-width: 811px) {
     flex-direction: column;
@@ -66,13 +68,16 @@ const Card = styled.div`
   margin-bottom: 30px;
   margin-right: 20px;
 
+  @media (max-width: 811px) {
+    margin-right: 0px;
+    
+  }
+
   @media (max-width: 429px) {
     width: 320px;
     height: 120px;
     margin-right: 0px;
   }
-
- 
 
   img {
     position: absolute;
