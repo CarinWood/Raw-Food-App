@@ -7,7 +7,7 @@ export const Wrapper = styled.div`
   width: 100%;
   overflow-x: hidden;
   margin-top: 150px;
-  padding-left: 50px;
+  padding-left: 52px;
   padding-right: 10px;
   flex-wrap: wrap;
 
